@@ -793,6 +793,7 @@ main {
     top: 30px;
   }
   .bg {
+    background-image: url(../images/bg-mini.jpg);
     padding: 55px 0 59px;
     margin-bottom: 75px;
   }
