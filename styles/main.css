@@ -706,12 +706,24 @@ main {
   .header {
     justify-content: flex-start;
   }
-}
-@media (max-width: 667px) {
+
+  .menu-grid-cover,
+  .menu-grid-cover img {
+    height: 50vw;
+  }
+
+  .menu-other .menu-grid-item {
+    flex: 0 0 30vw;
+  }
+  .menu-other .menu-grid-cover,
+  .menu-other .menu-grid-cover img {
+    height: 30vw;
+  }
   .footer-box {
     gap: 20px;
   }
 }
+
 @media (max-width: 567px) {
   .title {
     font-size: 38px;
@@ -731,22 +743,15 @@ main {
     margin-bottom: 20px;
   }
   .menu-title {
-    font-size: 38px;
+    font-size: 27px;
   }
   .menu-select {
     flex-basis: 183px;
     font-size: 13px;
   }
-  .menu-grid-cover,
-  .menu-grid-cover img {
-    height: 296px;
-  }
-  .menu-other .menu-grid-cover,
-  .menu-other .menu-grid-cover img {
-    height: 296px;
-  }
+
   .menu-grid-title {
-    font-size: 23px;
+    font-size: 20px;
   }
   .menu-grid-text {
     font-size: 13px;
@@ -762,9 +767,17 @@ main {
   .footer-list + .footer-list-tel {
     display: none;
   }
+  .footer {
+    margin-top: -70px;
+  }
 
   .modal {
     left: 0;
+  }
+}
+@media (max-width: 450px) {
+  .menu-grid-title {
+    font-size: 17px;
   }
 }
 @media (max-width: 360px) {
@@ -804,26 +817,23 @@ main {
   }
   .menu-header {
     gap: 26px;
-    margin-bottom: 29px;
+    margin-bottom: 30px;
   }
-  .menu-title {
-    font-size: 27px;
-  }
+
   .menu-select {
     font-size: 12px;
     background-position: 90% center;
     padding: 14px 17px;
   }
   .menu-grid {
-    gap: 25px 4px;
+    gap: 25px 6px;
   }
-  .menu-grid-cover {
-    width: 94%;
-  }
+
   .menu-grid-cover,
   .menu-grid-cover img {
-    height: 180px;
+    height: 54vw;
   }
+
   .menu-grid-title {
     font-size: 13px;
     font-weight: 700;
@@ -841,28 +851,45 @@ main {
     left: 14px;
   }
   .menu-other {
-    margin-top: 63px;
+    margin-top: 66px;
   }
-  .menu-header {
-    margin-bottom: 32px;
+  .menu-other .menu-header {
+    margin-bottom: 35px;
   }
-  .menu-other .menu-grid {
-    overflow-x: scroll;
-  }
-
+  
   .menu-other .menu-grid-item {
-    flex: 0 0 148px;
+    flex: 0 0 138px;
   }
   .menu-other .menu-grid-cover,
   .menu-other .menu-grid-cover img {
-    height: 179px;
+    height: 54vw;
   }
-  .footer{
-    margin-top: -154px;
+
+  .footer {
+    margin-top: -151px;
+    padding-top: 62px;
   }
 }
 @media (max-width: 320px) {
   .banner-box {
     background-position: 25% center;
   }
+  .menu-grid-cover,
+  .menu-grid-cover img {
+    height: 56vw;
+  }
+  .menu-other .menu-header {
+    margin-bottom: 33px;
+  }
+  .menu-other .menu-grid {
+    gap: 6px;
+  }
+  .menu-other .menu-grid-item {
+    flex: 0 0 139px;
+  }
+  .menu-other .menu-grid-cover,
+  .menu-other .menu-grid-cover img {
+    height: 56vw;
+  }
+ 
 }
