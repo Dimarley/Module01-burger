@@ -1,4 +1,4 @@
-# Burgers - тренировочный сайт от учебного проекта Annblock.ru
+# Burgers - тренировочный сайт от учебного проекта Annblok.ru
 
 * [Макет сайта Figma](https://www.figma.com/file/uClwfPQi49Sb89JqcDym0v/Burgers-Menu-Responsive-(Copy)?node-id=774%3A628)
 
