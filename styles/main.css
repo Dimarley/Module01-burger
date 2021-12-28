@@ -415,7 +415,7 @@ main {
   max-width: 500px;
   text-align: center;
   position: absolute;
-  left: 49px;
+  left: 0px;
   right: 0;
   top: -400px;
   margin: 0 auto;
@@ -830,10 +830,7 @@ main {
     display: block;
   }
 
-  .modal {
-    left: 0;
-  }
-}
+ }
 @media (max-width: 450px) {
   .menu-grid-title {
     font-size: 17px;
