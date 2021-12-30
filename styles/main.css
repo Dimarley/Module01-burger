@@ -615,6 +615,9 @@ main {
 }
 
 @media (max-width: 1000px) {
+  .header {
+    padding-bottom: 23px;
+  }
   .container {
     max-width: 738px;
   }
@@ -630,11 +633,17 @@ main {
     flex-basis: 75.5%;
   }
   .bg {
-    margin-bottom: 72px;
+    margin-bottom: 71px;
+  }
+  main {
+    margin-top: 0px;
   }
   .banner-box {
     background-position: -80px center;
     padding: 100px 40px 120px;
+  }
+  .menu {
+    padding-top: 0px;
   }
   .menu-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -643,6 +652,7 @@ main {
   .menu-other {
     overflow: hidden;
     height: 558px;
+    margin-top: 88px;
   }
   .menu-other .menu-grid {
     display: flex;
@@ -658,6 +668,9 @@ main {
   .menu-other .menu-grid-cover img {
     height: 320px;
   }
+  .footer {
+    padding-top: 63px;
+  }
   .footer-tel {
     display: none;
   }
@@ -666,11 +679,8 @@ main {
   }
 }
 @media (max-width: 800px) {
-  main {
-    margin-top: 0;
-  }
   .banner-box {
-    margin-bottom: 62px;
+    margin-bottom: 83px;
   }
   .menu-other {
     margin-top: 89px;
@@ -678,17 +688,14 @@ main {
   .menu-grid-title {
     font-size: 22px;
   }
-  .footer {
-    padding-top: 70px;
-  }
 }
-
 @media (max-width: 765px) {
   nav {
     display: none;
   }
   .header {
     gap: 21px;
+    padding-bottom: 27px;
   }
   .header-item {
   }
@@ -704,6 +711,9 @@ main {
   .menu-grid-cover img {
     height: 50vw;
   }
+  .menu-other{
+    height: 67vw;
+  }
   .menu-other .container {
     padding-right: 0;
   }
@@ -718,14 +728,25 @@ main {
   .menu-other .menu-grid-cover img {
     height: 30vw;
   }
+  .footer{
+    margin-top: 94px;
+  }
   .footer-box {
     gap: 20px;
   }
 }
+@media (max-width:665px) {
+  .menu-other {
+    height: 72vw;
+}
+.footer{
+  margin-top: 133px;
+}
+}
 
 @media (max-width: 567px) {
   .header {
-    padding-top: 19px;
+    padding-top: 19px; 
     padding-bottom: 19px;
   }
   .header-logo {
@@ -742,13 +763,13 @@ main {
     font-size: 12px;
   }
   .bg {
-    padding: 55px 0;
-    margin-bottom: 33px;
+    padding: 58px 0;
+    margin-bottom: 75px;
   }
   .banner-box {
     background-position: 17% center;
-    padding: 35px 24px 54px;
-    margin-bottom: 40px;
+    padding: 58px 24px 54px;
+    margin-bottom: 17px;
   }
   .menu-title {
     font-size: 27px;
@@ -785,9 +806,13 @@ main {
     font-size: 13px;
   }
   .menu-other {
-    margin-top: 40px;
+    margin-top: 64px;
     height: 93vw;
-    margin-bottom: 22vw;
+    margin-bottom: 84px;
+  }
+  .menu-other .menu-grid{
+    gap: 12px;
+  
   }
   .menu-other .menu-grid-cover {
     height: 56vw;
@@ -829,23 +854,23 @@ main {
   .footer-tel {
     display: block;
   }
-
- }
+}
 @media (max-width: 450px) {
   .menu-grid-title {
     font-size: 17px;
   }
   .menu-other {
     height: 104vw;
+    
   }
 }
 @media (max-width: 360px) {
   .header {
-    padding-bottom: 17px;
+    padding-bottom: 20px;
   }
   .bg {
     background-image: url(../images/bg-mini.jpg);
-    padding: 55px 0 59px;
+    padding: 55px 0 58px;
   }
   .title {
     margin-top: 27px;
@@ -858,13 +883,16 @@ main {
     padding-right: 0;
   }
   .banner-box {
-    background-position: 19% center;
+    background-position: 21% center;
     margin-left: 36px;
     margin-bottom: -4px;
     padding: 34px 24px 54px 24px;
   }
   .banner-text {
     width: 233px;
+  }
+  .menu{
+    padding-top: 20px;
   }
   .menu-header {
     gap: 26px;
@@ -903,11 +931,14 @@ main {
   }
   .menu-other {
     height: 113vw;
-    margin-bottom: 50vw;
+    margin-bottom: 46vw;
   }
   .menu-other .menu-header {
     margin-bottom: 35px;
   }
+  .menu-other .menu-grid {
+    gap: 3px;
+}
 
   .menu-other .menu-grid-item {
     flex: 0 0 138px;
@@ -924,7 +955,7 @@ main {
 }
 @media (max-width: 320px) {
   .banner-box {
-    background-position: 25% center;
+    background-position: 20% center;
   }
   .menu-grid-cover,
   .menu-grid-cover img {
@@ -943,4 +974,8 @@ main {
   .menu-other .menu-grid-cover img {
     height: 56vw;
   }
+  .footer {
+    margin-top: -104px;
+   
+}
 }
