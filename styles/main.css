@@ -711,7 +711,7 @@ main {
   .menu-grid-cover img {
     height: 50vw;
   }
-  .menu-other{
+  .menu-other {
     height: 67vw;
   }
   .menu-other .container {
@@ -728,25 +728,25 @@ main {
   .menu-other .menu-grid-cover img {
     height: 30vw;
   }
-  .footer{
+  .footer {
     margin-top: 94px;
   }
   .footer-box {
     gap: 20px;
   }
 }
-@media (max-width:665px) {
+@media (max-width: 665px) {
   .menu-other {
     height: 72vw;
-}
-.footer{
-  margin-top: 133px;
-}
+  }
+  .footer {
+    margin-top: 133px;
+  }
 }
 
 @media (max-width: 567px) {
   .header {
-    padding-top: 19px; 
+    padding-top: 19px;
     padding-bottom: 19px;
   }
   .header-logo {
@@ -810,9 +810,8 @@ main {
     height: 93vw;
     margin-bottom: 84px;
   }
-  .menu-other .menu-grid{
+  .menu-other .menu-grid {
     gap: 12px;
-  
   }
   .menu-other .menu-grid-cover {
     height: 56vw;
@@ -824,7 +823,7 @@ main {
     flex: 0 0 38vw;
   }
   .footer {
-    margin-top: -70px;
+    margin-top: 0px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -861,7 +860,25 @@ main {
   }
   .menu-other {
     height: 104vw;
-    
+    margin-bottom: 45px;
+  }
+  .footer {
+    padding-top: 61px;
+  }
+  .footer-list-tel {
+    padding-right: 38px;
+  }
+  .footer-list-tel li {
+    margin-bottom: 15px;
+  }
+  .footer-item h2 {
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 0px;
+  }
+  .footer-list {
+    margin-top: 17px;
+    margin-bottom: 13px;
   }
 }
 @media (max-width: 360px) {
@@ -891,7 +908,7 @@ main {
   .banner-text {
     width: 233px;
   }
-  .menu{
+  .menu {
     padding-top: 20px;
   }
   .menu-header {
@@ -938,7 +955,7 @@ main {
   }
   .menu-other .menu-grid {
     gap: 3px;
-}
+  }
 
   .menu-other .menu-grid-item {
     flex: 0 0 138px;
@@ -949,8 +966,30 @@ main {
   }
 
   .footer {
-    margin-top: -151px;
-    padding-top: 62px;
+    margin-top: -41.94vw;
+    padding-top: 17.22vw;
+    padding-bottom: 17.22vw;
+  }
+  .footer-list-tel {
+    padding-right: 22px;
+  }
+
+  .footer-list-tel li {
+    margin-bottom: 4.44vw;
+  }
+  .footer-list-tel a {
+    font-size: 5.56vw;
+  }
+  .footer-item h2 {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+  .footer-list {
+    margin-top: 16px;
+    margin-bottom: 18px;
+}
+  .footer-item:nth-child(3) {
+    margin-top: -1.11vw;
   }
 }
 @media (max-width: 320px) {
@@ -976,6 +1015,5 @@ main {
   }
   .footer {
     margin-top: -104px;
-   
-}
+  }
 }
