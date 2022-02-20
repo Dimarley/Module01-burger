@@ -764,12 +764,15 @@ main {
   }
   .bg {
     padding: 58px 0;
-    margin-bottom: 75px;
+    margin-bottom: 34px;
   }
   .banner-box {
     background-position: 17% center;
     padding: 58px 24px 54px;
     margin-bottom: 17px;
+  }
+  .menu {
+    margin-top: 56px;
   }
   .menu-title {
     font-size: 27px;
@@ -909,7 +912,7 @@ main {
     width: 233px;
   }
   .menu {
-    padding-top: 20px;
+    padding-top: 4px;
   }
   .menu-header {
     gap: 26px;
@@ -987,7 +990,7 @@ main {
   .footer-list {
     margin-top: 16px;
     margin-bottom: 18px;
-}
+  }
   .footer-item:nth-child(3) {
     margin-top: -1.11vw;
   }
